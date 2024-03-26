@@ -1,0 +1,19 @@
+{
+  "name": "@asaje/openapi-builder",
+  "version": "0.1.0",
+  "description": "JSON OpenAPI document builder",
+  "main": "index.js",
+  "scripts": {
+    "build:types": "tsc",
+    "build:src": "node esbuild.mjs",
+    "build": "npm run build:types && npm run build:src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.3"
+  }
+}
