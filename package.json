@@ -1,6 +1,6 @@
 {
   "name": "@asaje/openapi-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSON OpenAPI document builder",
   "main": "index.js",
   "types": "dist/main.d.ts",
