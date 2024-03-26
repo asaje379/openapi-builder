@@ -7,7 +7,7 @@
   "scripts": {
     "build:types": "tsc",
     "build:src": "node esbuild.mjs",
-    "build": "npm tun config && npm run version:update && npm run build:types && npm run build:src",
+    "build": "npm run config && npm run version:update && npm run build:types && npm run build:src",
     "version:update": "npm version patch",
     "config": "git config --global user.email \"salemaffa@gmail.com\" && git config --global user.name \"asaje379\""
   },
