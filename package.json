@@ -1,19 +1,31 @@
 {
   "name": "@asaje/openapi-builder",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "JSON OpenAPI document builder",
   "main": "index.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "build:types": "tsc",
     "build:src": "node esbuild.mjs",
     "build": "npm run build:types && npm run build:src"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "OpenAPI",
+    "open api",
+    "open api builder"
+  ],
+  "author": "Salem AFFA",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
     "esbuild": "^0.20.2",
     "typescript": "^5.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asaje379/openapi-builder.git"
+  },
+  "files": [
+    "dist"
+  ]
 }
